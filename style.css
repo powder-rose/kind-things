@@ -150,7 +150,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px;
-    height: 1000px;
+    height: 1200px;
 }
 
 .priority h2 {
