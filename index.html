@@ -5,103 +5,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/normalize.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Green Farytale</title>
 </head>
 
-<body>
-    <header class="header">
-        <nav class="nav">
-            <img src="./assets/logo.svg" alt="Логотип">
+<header class="header">
+    <nav class="nav">
+        <div class="destkop-menu">
+            <img src="./assets/images/logo.svg" alt="Логотип">
             <a href="#" target="_blank">Главная</a>
             <a href="#">О фонде</a>
-            <a href="/">Проекты</a>
+            <a href="#">Проекты</a>
             <a href="#">Новости</a>
             <a href="#">Контакты</a>
             <a href="#">Как помочь</a>
-        </nav>
-
-        <section class="header-info">
-            <h1>Благотворительный фонд помощи и защиты природы «Зеленая Сказка»</h1>
-            <p>Ежедневно сама природа напоминает нам, в сколь немногих, в сколь малых вещах она нуждается</p>
-            <img src="./assets/forest.svg" alt="Иллюстрация леса">
-        </section>
-
-    </header>
-
-    <main class="main">
-        <h2>Цель создания</h2>
-        <div class="main-info">
-            <img class="planet-image" src="./assets/planet.svg" alt="Иллюстрация девушки, которая обнимает планету">
-            <img class="circle-plant-decor" src="./assets/circle-plant-decor.svg" alt="Декоративный элемент на фоне">
-            <p>Мы многим обязаны Природе – и
-                поэтому нам не все равно, что с ней происходит сегодня. Мы действуем:
-                возвращаем жизнь лесам, участвуем в реальной защите редких видов растений и животных, помогаем нужным
-                организациям. Кроме того, мы поддерживаем экологию сознания – вовлекаем все больше людей в активный,
-                здоровый образ жизни.<br><br><br>
-                В основе нашей деятельности – поиск научных решений по защите и охране окружающей среды и эффективное
-                взаимодействие с людьми всей планеты. Мы стремимся к решению социально значимых проблем и хотим донести
-                до
-                каждого просьбу нашего мира о помощи.</p>
-            <img class="sand-pattern-decor" src="./assets/sand-pattern-decor.svg" alt="Декоративный эелемент на фоне">
         </div>
-    </main>
-
-    <section class="priority">
-        <h2>Наши приоритеты</h2>
-        <div class="priority-info">
-            <img src="./assets/forest-bears.svg" alt="Иллюстрация леса и медведей">
-            <ul>
-                <li>Пропаганда экоподхода и здорового образа жизни</li>
-                <li>Образовательные и научно-популярные проекты</li>
-                <li>Защита окружающей среды</li>
+        <div class="mobile-menu">
+            <input id="menu-toggle" type="checkbox">
+            <label class="menu-button" for="menu-toggle">
+                <span></span>
+            </label>
+            <img src="./assets/images/logo.svg" alt="Логотип">
+            <ul class="menu-box">
+                <img src="./assets/images/logo.svg" alt="Логотип">
+                <li><a class="menu-item" href="#">Главная</a></li>
+                <li><a class="menu-item" href="#">Проекты</a></li>
+                <li><a class="menu-item" href="#">Команда</a></li>
+                <li><a class="menu-item" href="#">Блог</a></li>
+                <li><a class="menu-item" href="#">Контакты</a></li>
             </ul>
         </div>
+    </nav>
+
+
+
+    <section class="header-info">
+        <h1>Благотворительный фонд помощи и защиты природы «Зеленая Сказка»</h1>
+        <p>Ежедневно сама природа напоминает нам, в сколь немногих, в сколь малых вещах она нуждается</p>
+        <img src="./assets/images/forest.svg" alt="Иллюстрация леса">
     </section>
 
-    <section class="projects">
-        <h2>Реализованные проекты</h2>
+</header>
 
-        <div class="bison">
-            <img src="./assets/bison.png" alt="Иллюстрация зубра">
-            <p>Финансирование строительства центра для содержания и реинтродукции зубров «Зубриный дом» в ФГБУ
-                «Национальный Парк Угра»</p>
-        </div>
+<main class="main">
+    <h2>Цель создания</h2>
+    <div class="main-info">
+        <img class="planet-image" src="./assets/images/planet.svg" alt="Иллюстрация девушки, которая обнимает планету">
+        <img class="circle-plant-decor" src="./assets/images/circle-plant-decor.svg" alt="Декоративный элемент на фоне">
+        <p>Мы многим обязаны Природе – и
+            поэтому нам не все равно, что с ней происходит сегодня. Мы действуем:
+            возвращаем жизнь лесам, участвуем в реальной защите редких видов растений и животных, помогаем нужным
+            организациям. Кроме того, мы поддерживаем экологию сознания – вовлекаем все больше людей в активный,
+            здоровый образ жизни.<br><br><br>
+            В основе нашей деятельности – поиск научных решений по защите и охране окружающей среды и эффективное
+            взаимодействие с людьми всей планеты. Мы стремимся к решению социально значимых проблем и хотим донести
+            до
+            каждого просьбу нашего мира о помощи.</p>
+        <img class="sand-pattern-decor" src="./assets/images/sand-pattern-decor.svg" alt="Декоративный элемент на фоне">
+    </div>
+</main>
 
-        <div>
-            <img src="./assets/bear.svg" alt="Иллюстрация медведя">
-            <p>Помощь в реализации проекта по созданию лесного питомника на территории национального парка «Бузулукский
-                бор».</p>
-        </div>
+<section class="priority">
+    <h2>Наши приоритеты</h2>
+    <div class="priority-info">
+        <img src="./assets/images/forest-bears.svg" alt="Иллюстрация леса и медведей">
+        <ul>
+            <li>Пропаганда экоподхода и здорового образа жизни</li>
+            <li>Образовательные и научно-популярные проекты</li>
+            <li>Защита окружающей среды</li>
+        </ul>
+    </div>
+</section>
 
-        <div class="horse">
-            <img src="./assets/horse.svg" alt="Иллюстрация лошади">
-            <p>Усыновление Фондом жеребят</p>
-        </div>
-    </section>
+<section class="projects">
 
-    <section class="donation">
-        <h2> Каждый может помочь уже сейчас</h2>
-        <p>Присоединяйтесь к нам и вместе мы сделаем наш общий дом лучше!</p>
-        <form class="donation-button" action="#" target="_blank">
-            <button class="kind-button">Кнопка доброты</button>
-        </form>
-        <img src="./assets/herbal-heart.svg" alt="">
-    </section>
+    <h2>Реализованные проекты</h2>
 
-    <footer class="footer">
-        <nav class="footer-nav">
-            <a href="#">Пожертвовать</a>
-            <a href="#">Помочь по-другому</a>
-            <a href="#">Стать волонтером</a>
-            <a href="#">Команда фонда</a>
-            <a href="#">Наши контакты</a>
-        </nav>
-        <div class="author">
-            <p>Катя Х ITGIRLS</p>
-        </div>
-    </footer>
+    <div class="bison project-box">
+        <img src="./assets/images/bison.png" alt="Иллюстрация зубра">
+        <p>Финансирование строительства центра для содержания и реинтродукции зубров «Зубриный дом» в ФГБУ
+            «Национальный Парк Угра»</p>
+    </div>
+
+    <div calss="bear project-box">
+        <img src="./assets/images/bear.svg" alt="Иллюстрация медведя">
+        <p>Помощь в реализации проекта по созданию лесного питомника на территории национального парка «Бузулукский
+            бор».</p>
+    </div>
+
+    <div class="horse project-box">
+        <img src="./assets/images/horse.svg" alt="Иллюстрация лошади">
+        <p>Усыновление Фондом жеребят</p>
+    </div>
+</section>
+
+<section class="donation">
+    <h2> Каждый может помочь уже сейчас</h2>
+    <p>Присоединяйтесь к нам и вместе мы сделаем наш общий дом лучше!</p>
+    <form class="donation-button" action="#" target="_blank">
+        <button class="kind-button">Кнопка доброты</button>
+    </form>
+    <img src="./assets/images/herbal-heart.svg" alt="Декоративный элемент сердце и листья">
+</section>
+
+<footer class="footer">
+    <nav class="footer-nav">
+        <a href="#">Пожертвовать</a>
+        <a href="#">Помочь по-другому</a>
+        <a href="#">Стать волонтером</a>
+        <a href="#">Команда фонда</a>
+        <a href="#">Наши контакты</a>
+    </nav>
+    <div class="author">
+        <p>Катя Х ITGIRLS</p>
+    </div>
+</footer>
 
 </body>
 
