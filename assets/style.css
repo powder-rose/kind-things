@@ -101,7 +101,6 @@ body {
   box-sizing: border-box;
   padding-top: 5.5rem;
   text-align: center;
-  background: url("./images/pink-pattern-decor.svg");
 }
 
 .donation p {
@@ -551,6 +550,7 @@ body {
     font-size: 27px;
     text-align: center;
     line-height: 40px;
+    background: url("./images/pink-pattern-decor.svg");
     background-position: 15px 0;
     background-size: 500px 220px;
     background-repeat: no-repeat;
